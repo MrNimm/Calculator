@@ -17,6 +17,7 @@ public class Main {
         double feet = userInput.nextDouble();
         double numberInMeters = convertFeetToMeters(feet);
 
+        System.out.println(feet + " feet is equal to " + numberInMeters + " meters");
 
     }
 

@@ -15,8 +15,17 @@ public class Main {
         //Prompts and input
         System.out.print("Enter number for feet: ");
         double feet = userInput.nextDouble();
+        double numberInMeters = convertFeetToMeters(feet);
 
 
+    }
 
+    public static double convertFeetToMeters(double numberInFeet){
+        //Take numberInFeet / 3.2808
+
+        double numberInMeters = numberInFeet / 3.2808;
+
+        //Return
+        return numberInMeters;
     }
 }
